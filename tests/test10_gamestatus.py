@@ -1,5 +1,5 @@
 import unittest
-
+from src.levelup.gamestatus import gamestatus
 class gamestatus(unittest.TestCase):
 
   def test_initialization(self):
@@ -8,5 +8,4 @@ class gamestatus(unittest.TestCase):
         
         self.assertNotEqual(testobj.name,'')
 
-if __name__ == '__main__':
-    unittest.main()
+
