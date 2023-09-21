@@ -1,3 +1,5 @@
+import unittest
+
 class gamemap(unittest.TestCase):
 
   def test_initialization(self):
