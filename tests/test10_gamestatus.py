@@ -1,3 +1,5 @@
+import unittest
+
 class gamestatus(unittest.TestCase):
 
   def test_initialization(self):
