@@ -1,3 +1,0 @@
-class gamestatus:
-
-  pass
