@@ -1,3 +1,5 @@
+import unittest
+
 class position(unittest.TestCase):
 
   def test_initialization(self):
