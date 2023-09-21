@@ -1,6 +1,10 @@
-class position:
+class position(unittest.TestCase):
 
-#  name = input("Please enter name\n")
-  if name == '':
-    name = 'bobzilla'
-#  value: str="bob"
+  def test_initialization(self):
+        testobj = character()
+ #       expected_name_value is notnull
+        
+        self.assertNotEqual(testobj.name,'')
+
+if __name__ == '__main__':
+    unittest.main()
