@@ -1,5 +1,5 @@
 from unittest import TestCase
-from levelup.character import Character
+from src.levelup.character import Character
 
 class TestCharacterInitWithName(TestCase):
     def test_init(self):
