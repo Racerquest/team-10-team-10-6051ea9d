@@ -1,4 +1,4 @@
 
 class character:
 
-  pass
+  value: str="bob"
