@@ -5,3 +5,6 @@ class gamemap(unittest.TestCase):
  #       expected_name_value is notnull
         
         self.assertNotEqual(testobj.name,'')
+
+if __name__ == '__main__':
+    unittest.main()
