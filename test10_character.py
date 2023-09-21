@@ -9,7 +9,7 @@ class testcharacter(unittest.TestCase):
         testobj = character()
  #       expected_name_value is notnull
 
-        self.assertIsNone(testobj.value)
+        self.assertIsNotNone(testobj.value)
 
 
 if __name__ == '__main__':
