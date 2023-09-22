@@ -6,3 +6,7 @@ class gamestatus(unittest.TestCase):
         testObj = GameStatus(status="")
         assert testObj.status != None
 
+  def currentPosition(self):
+        testObj = GameStatus(Position)
+        assert testObj.Position == None
+
