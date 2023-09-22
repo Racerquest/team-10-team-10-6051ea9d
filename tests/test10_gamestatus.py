@@ -3,9 +3,8 @@ from src.levelup.gamestatus import gamestatus
 class gamestatus(unittest.TestCase):
 
   def test_initialization(self):
-        testobj = character()
- #       expected_name_value is notnull
-        
+        testObj = gamestatus()
+        assert testObj.status != None
         self.assertNotEqual(testobj.name,'')
 
 
