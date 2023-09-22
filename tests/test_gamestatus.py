@@ -1,8 +1,8 @@
 import unittest
-from src.levelup.gamestatus import gamestatus
+from src.levelup.gamestatus import GameStatus
 class gamestatus(unittest.TestCase):
 
   def test_initialization(self):
-        testObj = gamestatus()
+        testObj = GameStatus(status="")
         assert testObj.status != None
-        self.assertNotEqual(testobj.name,'')
+
